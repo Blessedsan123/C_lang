@@ -10,7 +10,7 @@ int main()
     scanf("%d",&s_angle);
     t_angle = 180-(f_angle + s_angle);
     
-    if(t_angle < 1){
+    if(t_angle < 1 || t_angle >180){
         printf("Angles are not valid for triangle !");
     }
     else{
@@ -18,4 +18,3 @@ int main()
     }
     return 0;
 }
-
